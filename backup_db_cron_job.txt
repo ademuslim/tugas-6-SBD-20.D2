@@ -1,0 +1,11 @@
+Backup Database MySQL Otomatis dengan cron job.
+
+1. Script untuk melakukan backup otomatis mysql setiap hari minggu jam 12:00 malam:
+
+0 0 * * 0 mysqldump -u adminklinik -p312010147 klinik_312010147 > backup_db_klinik.sql
+
+
+
+2. Script dengan menambahkan postfix tanggal dan waktu pada setiap file .sql dari hasil backup:
+
+0 0 * * 0 mysqldump -u adminklinik -p312010147 klinik_312010147 > backup_db_klinik_`date '+%Y-%m-%d@%H:%M'`.sql
