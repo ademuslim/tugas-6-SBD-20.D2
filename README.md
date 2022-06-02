@@ -25,6 +25,7 @@
 ### 2. Backup dan Recovery Database Menggunakan MySQLDump.
 <img width="780" alt="backup_restore_db_mysqldump" src="https://user-images.githubusercontent.com/69449808/171568344-3ae4e56c-f50c-406a-a7e3-35ba27a3f3eb.png">
 
+
 ### 3. Backup Database MySQL Otomatis dengan cron job.
 
 ##### a. Script untuk melakukan backup otomatis mysql setiap hari minggu jam 12:00 malam:
